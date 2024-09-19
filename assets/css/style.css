@@ -28,9 +28,9 @@ body {
 }
 :root {
     --e-global-color-primary: #0f0d1d;
-    --e-global-color-secondary: #faaf36;
+    --e-global-color-secondary: #F57B0A;
     --e-global-color-text: #000000;
-    --e-global-color-accent: #f79f41;
+    --e-global-color-accent: #F57B0A;
 	--e-global-color-white: #ffffff;
     --e-global-color-dark-grayish: #726f84;
     --e-global-color-dark-gray: #9a9a9a;
@@ -38,7 +38,7 @@ body {
     --e-global-color-cool-dark-gray: #8a8a8a;
     --e-global-color-mostly-black: #121212;
     --e-global-color-very-dark-violet: #0f0223;
-    --e-global-color-soft-violet: #f39b30;
+    --e-global-color-soft-violet: #F57B0A;
 }
 h1{
     font-size: 70px;
