@@ -381,39 +381,61 @@ html{
 .banner-section-outer .banner-section {
     padding: 175px 0 365px;
     z-index: 1;
+    position: relative; /* Ensure the section remains relative for absolute positioning */
 }
-.banner-section-outer .banner-section .banner-section-content{
+
+.banner-section-outer .banner-section .banner-section-content {
     padding-top: 70px;
 }
-.banner-section-outer .banner-section .banner-section-content h1{
+
+.banner-section-outer .banner-section .banner-section-content h1 {
     font-size: 70px;
     line-height: 90px;
     font-weight: 600;
     color: var(--e-global-color-white);
     margin-bottom: 35px;
 }
-.banner-section-outer .banner-section .banner-section-content .banner_line_box{
+
+.banner-section-outer .banner-section .banner-section-content .banner_line_box {
     top: 170px;
     right: 0;
 }
-.banner-section-outer .banner-section .banner-section-content p{
+
+.banner-section-outer .banner-section .banner-section-content p {
     line-height: 30px;
     margin-bottom: 30px;
 }
+
 .banner-section-outer .banner-section-content .btn_wrapper .readmore_btn {
     letter-spacing: 1.4px;
     position: relative;
 }
-.banner-section-outer .banner-section-content .btn_wrapper .readmore_btn .white_arrow{
+
+.banner-section-outer .banner-section-content .btn_wrapper .readmore_btn .white_arrow {
     position: absolute;
     top: 25px;
     right: 42px;
 }
-.banner-section-outer .banner-section .banner_image{
+
+/* New CSS for positioning the globe image */
+.banner-section-outer .banner-section .banner_image {
     position: absolute;
     bottom: 106px;
     right: 0;
+    z-index: 2;
 }
+
+.banner-section-outer .banner-section .banner-image-globe {
+    position: absolute;
+    right: 0;
+    bottom: 106px;
+    max-width: 500px; /* Set the initial width of the globe */
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+/* Shape styling */
 .banner-section-outer .banner_shape {
     bottom: 0;
     left: 0;
