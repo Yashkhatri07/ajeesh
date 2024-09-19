@@ -4069,7 +4069,7 @@ input[type="submit"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 8%;
+  padding-left: 6%;
   margin-bottom: 0;
   list-style: none;
 }
