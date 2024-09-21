@@ -4069,7 +4069,7 @@ input[type="submit"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 6%;
+  padding-left: 12%;
   margin-bottom: 0;
   list-style: none;
 }
@@ -4286,7 +4286,7 @@ input[type="submit"].btn-block {
   }
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 0.4rem;
   }
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid,
