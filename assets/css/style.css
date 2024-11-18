@@ -41,6 +41,7 @@ body {
     --e-global-color-soft-violet: #F57B0A;
 }
 h1{
+    font-family: 'One Day', sans-serif;
     font-size: 70px;
     line-height: 90px;
     font-weight: 600;
@@ -135,6 +136,12 @@ html{
     0% { transform: translateX(0); }
     100% { transform: translateX(-30px); }
 }
+.three-d-text-metallic {
+    color: white;
+    font-weight: 700;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 15px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(255, 255, 255, 0.4);
+}
+
 
 /* Home Page Style */
 
