@@ -299,7 +299,6 @@
     }
     .navbar-brand {
         margin-right: 95px;
-        padding-top: 10px;
     }
     .navbar-brand figure img{
         width: 128px;
@@ -3044,7 +3043,7 @@
         padding: 0;
     }
     .navbar-brand figure img {
-        width: 115px;
+        width: 75px;
     }
     .navbar-collapse {
         width: 70%;
