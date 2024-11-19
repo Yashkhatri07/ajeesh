@@ -41,6 +41,7 @@ body {
     --e-global-color-soft-violet: #F57B0A;
 }
 h1{
+    font-family: 'One Day', sans-serif;
     font-size: 70px;
     line-height: 90px;
     font-weight: 600;
@@ -135,6 +136,12 @@ html{
     0% { transform: translateX(0); }
     100% { transform: translateX(-30px); }
 }
+.three-d-text-metallic {
+    color: white;
+    font-weight: 700;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 15px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(255, 255, 255, 0.4);
+}
+
 
 /* Home Page Style */
 
@@ -634,7 +641,129 @@ html{
 .about_company_section .black_box .review_wrapper ul li i:hover{
     color: var(--e-global-color-accent);
 }
-
+.genai-banner {
+    background-color: #ff7a00; /* Orange background */
+    color: white;
+    padding: 20px 10%; /* Padding for spacing on the sides */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust height as needed */
+    padding-top: -200px;
+  }
+  
+  .genai-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Optional: To limit content width */
+  }
+  
+  .genai-content {
+    flex: 3; /* Take up more space for the content */
+    text-align: left;
+  }
+  
+  .genai-content h1 {
+    font-size: 4.5rem;
+    margin: 0;
+  }
+  
+  .genai-content h1 span {
+    font-weight: bold;
+  }
+  
+  .superscript {
+    font-size: 0.5em;
+    vertical-align: super;
+  }
+  
+  sub {
+    font-size: 0.5em;
+    vertical-align: sub;
+  }
+  
+  .genai-content p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .genai-button {
+    flex: 1; /* Take less space for the button */
+    text-align: right;
+  }
+  
+  .know-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff7a00;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .know-more-button:hover {
+    background-color: #ff7a00;
+    color: white;
+    border: 2px solid white;
+  }
+  @media (max-width: 1200px) { /* Tablet View */
+    .genai-banner{
+        margin-top: -500px;
+        margin-bottom: 400px;
+    }
+    .genai-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .genai-content {
+      text-align: center;
+      margin-bottom: 20px; /* Adds spacing between content and button */
+    }
+  
+    .genai-button {
+      text-align: center;
+    }
+  
+    .genai-content h1 {
+      font-size: 2rem;
+    }
+  
+    .genai-content p {
+      font-size: 1rem;
+    }
+  
+    .know-more-button {
+      padding: 10px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 768px) { /* Mobile View */
+    .genai-banner{
+        margin-top: -550px;
+        margin-bottom: 500px;
+    }
+    .genai-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .genai-content p {
+      font-size: 0.9rem;
+    }
+  
+    .know-more-button {
+      padding: 8px 12px;
+      font-size: 0.8rem;
+    }
+  }
+  
 /* Home Page Latest Services Section Style */
 
 /* General Section Styling */
