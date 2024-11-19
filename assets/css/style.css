@@ -711,6 +711,7 @@ html{
     background-color: #ff7a00;
     color: white;
     border: 2px solid white;
+    text-decoration: none;
   }
   @media (max-width: 1200px) { /* Tablet View */
     .genai-banner{
